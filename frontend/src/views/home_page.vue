@@ -6,7 +6,7 @@
   <div class="container-fluid full-width-container">
     <div class="row">
       <!-- Sidebar -->
-      <div class="col-auto sidebar">
+      <div class="col-1 sidebar">
         <nav>
           <ul class="nav flex-column">
             <li class="nav-item">
@@ -26,19 +26,19 @@
       </div>
 
       <!-- Main content -->
-      <div class="col content">
+      <div class="col-sm col-11 content">
         <div class="row">
-          <div class="col-12 section cam-view">Camera View</div>
+          <div class=" section cam-view">Camera View</div>
         </div>
         <div class="row">
-          <div class="col-4 section map-view">Map View</div>
-          <div class="col-4 section person-count">Person Count</div>
-          <div class="col-4 section vehicle-count">Vehicle Count</div>
+          <div class=" section map-view">Map View</div>
+          <div class=" section person-count">Person Count</div>
+          <div class=" section vehicle-count">Vehicle Count</div>
+          <div class=" section temp-info">Temperature</div>
+          <div class=" section humidity-info">Humidity</div>
         </div>
         <div class="row">
-          <div class="col-4 section temp-info">Temperature</div>
-          <div class="col-4 section humidity-info">Humidity</div>
-          <div class="col-4 section device-info">Device Info</div>
+          <div class=" section device-info">Device Info</div>
         </div>
       </div>
     </div>
@@ -46,11 +46,6 @@
 </template>
 
 <style scoped>
-.body{
-  padding: 0;
-  margin: 0;
-}
-
 .container-fluid {
   padding: 0;
   margin: 10px, 20px;
