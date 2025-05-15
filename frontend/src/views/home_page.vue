@@ -30,12 +30,17 @@
         <div class="row">
           <div class=" section cam-view">Camera View</div>
         </div>
-        <div class="row">
-          <div class=" section map-view">Map View</div>
-          <div class=" section person-count">Person Count</div>
-          <div class=" section vehicle-count">Vehicle Count</div>
-          <div class=" section temp-info">Temperature</div>
-          <div class=" section humidity-info">Humidity</div>
+        <div class="row flex-column">
+          <div class="view map">
+            <div class="col-6 section map-view">Map View</div>
+          </div>
+          
+          <div class="col-5 view sensor">
+            <div class=" section person-count">Person Count</div>
+            <div class=" section vehicle-count">Vehicle Count</div>
+            <div class=" section temp-info">Temperature</div>
+            <div class=" section humidity-info">Humidity</div>
+          </div>
         </div>
         <div class="row">
           <div class=" section device-info">Device Info</div>
@@ -62,7 +67,6 @@
   color: #fff;
   height: 100vh;
   padding: 20px 10px;
-  min-width: 90px;
 }
 
 .nav-link {
@@ -88,7 +92,7 @@
 }
 
 .cam-view {
-  height: 300px;
+  height: 500px;
 }
 
 .map-view,

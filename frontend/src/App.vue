@@ -13,15 +13,4 @@
 
 <!-- Styles CSS-->
 <style>
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-#app {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 </style>
