@@ -8,6 +8,15 @@
       <!-- Sidebar -->
       <div class="col-1 sidebar">
         <nav>
+          <RouterLink style="text-decoration: none; color: white; display:flex; justify-content: center; align-items: center;" class="nav" to="/">Home</RouterLink>
+          <RouterLink style="text-decoration: none; color: white; display:flex; justify-content: center; align-items: center;" class="nav" to="/Account">Account</RouterLink>
+          <RouterLink style="text-decoration: none; color: white; display:flex; justify-content: center; align-items: center;" class="nav" to="/Devices">Device</RouterLink>
+          <RouterLink style="text-decoration: none; color: white; display:flex; justify-content: center; align-items: center;" class="nav" to="/Reports">Reports</RouterLink>
+        </nav>
+        <main>
+          <RouterView />
+        </main>
+        <!-- <nav>
           <ul class="nav">
             <li class="nav-item">
               <a class="nav-link" href="#"><i class="bi bi-house"></i> Home</a>
@@ -22,7 +31,7 @@
               <a class="nav-link" href="#"><i class="bi bi-bar-chart"></i> Reports</a>
             </li>
           </ul>
-        </nav>
+        </nav> -->
       </div>
 
       <!-- Main content -->
@@ -68,10 +77,10 @@
   padding: 20px 10px;
 }
 
-.nav-link {
+/* .nav-link {
   color: #fff;
   margin-bottom: 10px;
-}
+} */
 
 .content {
   padding: 20px;
