@@ -3,12 +3,12 @@
 </script>
 
 <template>
-  <div class="container-fluid full-width-container">
+  <div class=" full-width-container">
     <div class="row">
       <!-- Sidebar -->
       <div class="col-1 sidebar">
         <nav>
-          <ul class="nav flex-column">
+          <ul class="nav">
             <li class="nav-item">
               <a class="nav-link" href="#"><i class="bi bi-house"></i> Home</a>
             </li>
@@ -30,16 +30,20 @@
         <div class="row">
           <div class=" section cam-view">Camera View</div>
         </div>
-        <div class="row flex-column">
-          <div class="view map">
-            <div class="col-6 section map-view">Map View</div>
+        <div class="row">
+          <div class="col map">
+            <div class="section map-view">Map View</div>
           </div>
           
-          <div class="col-5 view sensor">
-            <div class=" section person-count">Person Count</div>
-            <div class=" section vehicle-count">Vehicle Count</div>
-            <div class=" section temp-info">Temperature</div>
-            <div class=" section humidity-info">Humidity</div>
+          <div class="col sensor">
+            <div class="row">
+              <div class="col left-view section person-count">Person Count</div>
+              <div class="col section vehicle-count">Vehicle Count</div>
+            </div>
+            <div class="row">
+              <div class="col left-view section temp-info">Temperature</div>
+              <div class="col section humidity-info">Humidity</div>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -51,11 +55,6 @@
 </template>
 
 <style scoped>
-.container-fluid {
-  padding: 0;
-  margin: 10px, 20px;
-}
-
 .full-width-container {
   padding-left: 20px;
   padding-right: 20px;
@@ -95,7 +94,20 @@
   height: 500px;
 }
 
-.map-view,
+.map{
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 20px;
+}
+
+.map-view{
+  height: 420px;
+}
+
+.left-view{
+  margin-right: 20px;
+}
+
 .person-count,
 .vehicle-count,
 .temp-info,
