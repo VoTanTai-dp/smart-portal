@@ -35,6 +35,11 @@
 </template>
 
 <style scoped>
+.full-width-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .section {
   background: #e9ecef;
   margin-bottom: 20px;

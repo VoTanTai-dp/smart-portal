@@ -35,7 +35,6 @@
 .full-width-container {
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
 }
 
 .sidebar {
