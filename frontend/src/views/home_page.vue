@@ -16,22 +16,6 @@
         <main>
           <RouterView />
         </main>
-        <!-- <nav>
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-house"></i> Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-person"></i> Account</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-camera-video"></i> Devices</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-bar-chart"></i> Reports</a>
-            </li>
-          </ul>
-        </nav> -->
       </div>
 
       <!-- Main content -->
@@ -76,11 +60,6 @@
   height: 100vh;
   padding: 20px 10px;
 }
-
-/* .nav-link {
-  color: #fff;
-  margin-bottom: 10px;
-} */
 
 .content {
   padding: 20px;
