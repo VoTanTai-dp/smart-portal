@@ -1,34 +1,30 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Navigator_bar from '@/layouts/navigation_bar.vue'
-import Home_page from '@/views/home_page.vue'
-import Account from '@/views/account_page.vue'
-import Device from '@/views/device_page.vue'
-import Report from '@/views/report_page.vue'
+import AppLayout from '@/layouts/appLayout.vue'
 
 const routes = [
   {
     path: '/',
-    component: Navigator_bar,
+    component: AppLayout,
     children: [
       {
         path: '',
         name: 'home',
-        component: Home_page
+        component: () => import('@/views/homePage.vue')
       },
       {
         path: 'Account',
         name: 'account',
-        component: Account
+        component: () => import('@/views/accountPage.vue')
       },
       {
         path: 'Devices',
         name: 'devices',
-        component: Device
+        component: () => import('@/views/devicePage.vue')
       },
       {
         path: 'Reports',
         name: 'reports',
-        component: Report
+        component: () => import('@/views/reportPage.vue')
       }
     ]
   }
