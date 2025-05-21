@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Navigator_bar from '@/components/layouts/navigation_bar.vue'
+import Navigator_bar from '@/layouts/navigation_bar.vue'
 import Home_page from '@/views/home_page.vue'
 import Account from '@/views/account_page.vue'
 import Device from '@/views/device_page.vue'
