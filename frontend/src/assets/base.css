@@ -19,6 +19,16 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+  
+  /* Custom color */
+  --bg-primary-color: #09090B;
+  --bg-secondary-color: #18181B;
+  --text-light-color: #DFF0FB;
+  --text-dark-color: #4A4857;
+  --text-disable-color: #89898D;
+  --primary-color: #10B981;
+  --error-color: #C83027;
+  --disable-color: #212124;
 }
 
 /* semantic color variables for this project */
@@ -58,8 +68,15 @@
   font-weight: normal;
 }
 
+html,
+body,
+#app {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  min-height: 100vh;
   color: var(--color-text);
   background: var(--color-background);
   transition:

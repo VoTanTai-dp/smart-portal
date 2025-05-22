@@ -9,6 +9,7 @@ import NavigationBar from './navigationBar.vue';
         <div class="row">
             <!-- Sidebar -->
             <navigation-bar></navigation-bar>
+
             <!-- Main content -->
             <div class="col-sm col-11 content">
                 <RouterView />
@@ -17,9 +18,4 @@ import NavigationBar from './navigationBar.vue';
     </div>
 </template>
 
-<style scoped>
-.full-width-container {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-</style>
+<style scoped></style>

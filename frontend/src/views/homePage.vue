@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class=" full-width-container">
+  <!-- <div class=" full-width-container"> -->
     <div class="row">
       <!-- Main content -->
       <div class="col-sm col-11 content">
@@ -31,13 +31,12 @@
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 </template>
 
 <style scoped>
-.full-width-container {
-  padding-left: 20px;
-  padding-right: 20px;
+.content{
+  margin-left: 20px;
 }
 
 .section {

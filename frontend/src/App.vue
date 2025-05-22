@@ -12,5 +12,8 @@
 </template>
 
 <!-- Styles CSS-->
-<style>
+<style scoped>
+  .container-fluid{
+    padding: 0;
+  }
 </style>
