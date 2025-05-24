@@ -20,7 +20,7 @@ a,
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: var(--color-hover)
   }
 }
 
@@ -37,15 +37,15 @@ a,
 }
 
 .sidebar {
-  background: #343a40;
-  color: #fff;
+  background: var(--bg-secondary-color);
+  color: var(--text-light-color);
   height: 100vh;
   padding: 20px 10px;
   border-radius: 5px;
 }
 
 .nav-link {
-  color: #fff;
+  color: var(--text-light-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,10 +53,10 @@ a,
   text-decoration: none;
 }
 
-.nav-link.router-link-exact-active {
+/* .nav-link.router-link-exact-active {
   font-weight: bold;
   color: #ffc107;
-}
+} */
 
 .content {
   padding: 20px;
