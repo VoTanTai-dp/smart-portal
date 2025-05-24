@@ -7,24 +7,24 @@ const routes = [
     component: AppLayout,
     children: [
       {
-        path: '',
+        path: '/',
         name: 'home',
-        component: () => import('@/views/homePage.vue')
+        component: () => import('@/views/HomePage.vue')
       },
       {
         path: 'Account',
         name: 'account',
-        component: () => import('@/views/accountPage.vue')
+        component: () => import('@/views/AccountPage.vue')
       },
       {
         path: 'Devices',
         name: 'devices',
-        component: () => import('@/views/devicePage.vue')
+        component: () => import('@/views/DevicePage.vue')
       },
       {
         path: 'Reports',
         name: 'reports',
-        component: () => import('@/views/reportPage.vue')
+        component: () => import('@/views/DashBoard.vue')
       }
     ]
   }
