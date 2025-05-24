@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import AppLayout from '@/layouts/appLayout.vue'
+import AppLayout from '@/layouts/AppLayout.vue'
 
 const routes = [
   {
