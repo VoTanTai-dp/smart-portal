@@ -1,6 +1,6 @@
 Import
 <script setup>
-import NavigationBar from './navigationBar.vue';
+import NavigationBar from './NavigationBar.vue';
 
 </script>
 
