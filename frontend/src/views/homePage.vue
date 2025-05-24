@@ -20,14 +20,13 @@
               <div class="col left-view section person-count">Person Count</div>
               <div class="col section vehicle-count">Vehicle Count</div>
             </div>
+
             <div class="row">
               <div class="col left-view section temp-info">Temperature</div>
               <div class="col section humidity-info">Humidity</div>
             </div>
+            
           </div>
-        </div>
-        <div class="row">
-          <div class=" section device-info">Device Info</div>
         </div>
       </div>
     </div>
