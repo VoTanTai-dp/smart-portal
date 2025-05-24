@@ -21,11 +21,6 @@ const routes = [
         name: 'devices',
         component: () => import('@/views/DevicePage.vue')
       },
-      {
-        path: 'Reports',
-        name: 'reports',
-        component: () => import('@/views/DashBoard.vue')
-      }
     ]
   }
 ]
