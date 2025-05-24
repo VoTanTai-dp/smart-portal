@@ -20,9 +20,9 @@
                 </RouterLink>
                 <RouterLink
                     style="text-decoration: none; color: white; display:flex; justify-content:flex-start; align-items: center;"
-                    class="nav-item" to="/table">
-                    <i class="bi bi-border-all" style="font-size: 2rem; margin-right: 10px;"></i>
-                    Table
+                    class="nav-item" to="/database">
+                    <i class="bi bi-database" style="font-size: 2rem; margin-right: 10px;"></i>
+                    Database
                 </RouterLink>
                 <RouterLink
                     style="text-decoration: none; color: white; display:flex; justify-content:flex-start; align-items: center;"
