@@ -30,12 +30,6 @@
                     <i class="bi bi-camera-video" style="font-size: 2rem; margin-right: 10px;"></i>
                     Devices
                 </RouterLink>
-                <RouterLink
-                    style="text-decoration: none; color: white; display:flex; justify-content:flex-start; align-items: center;"
-                    class="nav-item nav-item-bottom" to="/dashboard">
-                    <i class="bi bi-pie-chart" style="font-size: 2rem; margin-right: 10px;"></i>
-                    Dashboard
-                </RouterLink>
             </div>
 
             <div class="bottom">
